@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* header */
+.Header {
+    width: 100%;
+    height: 120px;
+    background-color: #D22F2F;
+}
+
+.Header-Contants {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 60px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Header-H1 {
+    margin: 0;
+    font-size: 40px;
+    display: inline-block;
+    color: white;
+}
+
+.Nav-List {
+    display: flex;
+    margin: 0;
+}
+
+.Nav-Item {
+    margin: 0 0 0 60px;
+}
+
+.Nav-Item a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+
+/* main */
+.Contants {
+    max-width: 1225px;
+    height: 100%;
+    margin: 100px auto;
+}
+
+.Section-Container { /* contactと同じプロパティ */
+    padding: 100px 30px;
+    text-align: center;
+    background-color: white;
+}
+
+h2 {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    border-bottom: 2px dashed #D22F2F;
+}
+
+.Contants-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Works-Contents {
+    width: 450px;
+    height: 500px;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+    background-color: white;
+}
+
+.Works-Contents img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.Contents-Text {
+    height: 100px;
+    margin: 30px 0;
+    background-color: #F9DFDF;
+}
+
+.Contents-Text p {
+    margin: 0;
+}
+
+.btn {
+    width: 125px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn-a {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #151515;
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+
+/* contact */
+
+.Contact {
+    padding: 0 30px;
+    text-align: center;
+    background-color: white;
+}
+
+.Contact-Wrap {
+    text-align: center;
+}
+
+.Contact-Contents {
+    max-width: 825px;
+    height: 100%;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 25%);
+}
+
+
+.Form-Container {
+    padding: 40px;
+}
+
+.Form-Area {
+    width: 100%;
+    padding: 20px 0;
+    text-align: left;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Text-Area {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 3px 1px rgb(0 0 0 / 25%) inset;
+}
+
+input {
+    height: 60px;
+}
+
+label {
+    display: flex;
+}
+
+.Input-Btn {
+    width: 200px;
+    height: 60px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    border: none;
+    color: white;
+    background-color: #D22F2F;
+}
