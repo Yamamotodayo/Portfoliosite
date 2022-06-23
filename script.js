@@ -42,8 +42,11 @@ let gotoAbout = document.getElementById('gotoAbout')
   function toScroll(e) {
     e.preventDefault()
 
-    let targetId = this.getAttribute('href').replace(/^#/, ''),
+    let targetId = this.getAttribute('id').replace(/^goto/, ''),
         targetElem = document.getElementById(targetId);
+
+        // targetId = this.getAttribute('href').replace(/^#/, ''),
+        // targetElem = document.getElementById(targetId);
 
           console.log(this);
           console.log(targetId);
