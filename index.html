@@ -16,10 +16,10 @@
 <body>
     <header class="header" id="top"> <!-- 111行目のgotoTopをクリックしたときに ヘッダーの ID top を取得して スクロールする　-->
         <div class="header-contants">
-            <h1 class="header-h1">Y.YUTO</h1>
+            <h1 class="header-h1"><a href="index.html">Y.YUTO</a></h1>
             <nav class="header-nav">
                 <ul class="header-nav-list">
-                    <li class="header-nav-item"><a id="gotoAbout">ABOUT</a></li>
+                    <li class="header-nav-item"><a id="gotoAbout" data-goto="">ABOUT</a></li>
                     <li class="header-nav-item"><a id="gotoWorks">WORKS</a></li>
                     <li class="header-nav-item"><a id="gotoContact">CONTACT</a></li>
                 </ul>
@@ -120,7 +120,7 @@
                             </div>
                             <div class="form-area">
                                 <label for="message">メッセージ本文</label>
-                                <textarea name="message" id="" cols="" rows="25" class="text-area"></textarea>
+                                <textarea name="message" id="" cols="" rows="20" class="text-area"></textarea>
                             </div>
                             <input type="submit" value="SUBMIT" class="input-btn">
                         </form>
@@ -130,6 +130,7 @@
         </div>
     </main>
 
+    <!-- scroll button -->
     <div class="pagetop" id="gotoTop">
         <div class="top-btn"></div>
     </div>
@@ -139,8 +140,6 @@
     <footer class="footer">
         <p class="footer-p">©LOGO</p>
     </footer>
-
-    
 
     <script src="script.js"></script>
 </body>
