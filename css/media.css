@@ -1,0 +1,53 @@
+
+@media screen and (max-width:749px) {
+    
+    .header-contants {
+        justify-content: space-around;
+    }
+
+    .header-nav-list {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .header-nav {
+        /* display: flex; */
+    }
+    
+    .header-nav-list {
+        /* display: flex; */
+        margin: 0;
+    }
+
+    .header-nav-item{
+        margin: 0 60px;
+        padding-bottom: 5px;
+    }
+
+    .header-nav-item a {
+        font-size: 18px;
+    }
+
+
+    /* main */
+    h2 {
+        font-size: 24px;
+        display: inline-block;
+        width: 20%;
+        height: 30px;
+        border-bottom: 2px dashed #D22F2F;
+    }
+
+
+
+    /* scroll button */
+    .pagetop {
+        right: 15px;
+        bottom: 15px;
+    }
+
+
+    .contact-card {
+        height: 50%;
+    }
+}
