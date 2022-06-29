@@ -33,7 +33,7 @@
     h2 {
         font-size: 24px;
         display: inline-block;
-        width: 20%;
+        width: auto;
         height: 30px;
         border-bottom: 2px dashed #D22F2F;
     }
