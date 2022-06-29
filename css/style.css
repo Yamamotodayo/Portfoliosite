@@ -23,9 +23,13 @@ a {
     height: 100%;
     max-width: 1700px;
     margin: 0 auto;
-    padding: 0 60px;
+    padding: 20px 60px;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.header-h1 {
+    margin: 0;
 }
 
 .header-h1 a{
@@ -207,6 +211,7 @@ label {
 
 .text-area {
     width: 100%;
+    padding: 0;
     border-radius: 5px;
     border: none;
     resize: none;

@@ -3,6 +3,8 @@
     
     .header-contants {
         justify-content: space-around;
+        display: initial;
+        text-align: center;
     }
 
     .header-nav-list {
@@ -11,17 +13,18 @@
     }
 
     .header-nav {
-        /* display: flex; */
+        justify-content: space-around;
     }
     
     .header-nav-list {
-        /* display: flex; */
+        display: initial;
         margin: 0;
     }
 
     .header-nav-item{
-        margin: 0 60px;
+        padding: 0 60px;
         padding-bottom: 5px;
+        margin: initial;
     }
 
     .header-nav-item a {
@@ -49,5 +52,13 @@
 
     .contact-card {
         height: 50%;
+    }
+}
+
+
+@media screen and (max-width:515px) {
+    .header-contants {
+        display: flex;
+        display: initial;
     }
 }
